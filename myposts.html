@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Posts - WasteWizard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #2778b1;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .post {
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .post h2 {
+            color: #333;
+        }
+
+        .post p {
+            color: #666;
+        }
+
+        .author {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .author img {
+            max-width: 50px;
+            border-radius: 50%;
+        }
+
+        .add-button {
+            text-align: center;
+        }
+
+        .add-button a {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #2778b1;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .profile-picture {
+            border-radius: 50%;
+            max-width: 30px;
+            /* Adjust the size as needed */
+            margin-right: 10px;
+            /* Add spacing between the picture and the name */
+        }
+
+        .user-name {
+            color: #11286d;
+            text-align: right;
+            /* Align the name and picture to the right */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Posts</h1>
+        <p>View and manage your posts on WasteWizard.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="myposts.html">My Posts</a></li>
+            <li><a href="aboutsus.html">About Us</a></li>
+            <li style="flex: 1;"></li> <!-- Add an empty list item for spacing -->
+            <li><img src="gosling.webp" alt="User Profile Picture" class="profile-picture"></li>
+            <li><a href="profile.html">Ryan Gosling</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="add-button">
+            <a href="addpost.html">Add New Post</a>
+        </div>
+        <br>
+        <div class="post" style="border: 6px solid #000;">
+            <h2>Garbage</h2>
+            <p>This is a post about garbage. It's essential to manage our waste properly!</p>
+            <div class="author">
+                <img src="gosling.webp" alt="John Doe">
+                <p>Posted by Ryan Gosling</p>
+            </div>
+        </div>
+
+        <div class="post" style="border: 6px solid #8B4513;">
+            <h2>Compost</h2>
+            <p>This post is about composting. Let's turn organic waste into valuable compost for our gardens.</p>
+            <div class="author">
+                <img src="gosling.webp" alt="John Doe">
+                <p>Posted by Ryan Gosling</p>
+            </div>
+        </div>
+
+        <div class="post" style="border: 6px solid #3498db;">
+            <h2>Recycling</h2>
+            <p>Recycling is an excellent way to reduce our environmental impact. Let's recycle together!</p>
+            <div class="author">
+                <img src="gosling.webp" alt="John Doe">
+                <p>Posted by Ryan Gosling</p>
+            </div>
+        </div>
+
+        <!-- Add more posts with the same author here -->
+
+    </div>
+
+    <footer>
+        &copy; 2023 WasteWizard. All rights reserved.
+    </footer>
+</body>
+
+</html>

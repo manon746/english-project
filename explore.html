@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WasteWizard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #2778b1;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .post {
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .post h2 {
+            color: #333;
+        }
+
+        .post p {
+            color: #666;
+        }
+
+        .author {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .author img {
+            max-width: 50px;
+            border-radius: 50%;
+        }
+
+        .garbage {
+            background-color: #fff;
+            border: 4px solid #000;
+            /* Thick black border for garbage posts */
+        }
+
+        .compost {
+            background-color: #fff;
+            border: 4px solid #8B4513;
+            /* Thick brown border for compost posts */
+        }
+
+        .recycling {
+            background-color: #fff;
+            border: 4px solid #3498db;
+            /* Thick blue border for recycling posts */
+        }
+
+        footer {
+            background-color: #2778b1;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .profile-picture {
+            border-radius: 50%;
+            max-width: 30px;
+            /* Adjust the size as needed */
+            margin-right: 10px;
+            /* Add spacing between the picture and the name */
+        }
+
+        .user-name {
+            color: #11286d;
+            text-align: right;
+            /* Align the name and picture to the right */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>WasteWizard</h1>
+        <p>Your platform for recycling, composting, and sharing your trash-transforming ideas.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="tools.html">Tools</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="myposts.html">My Posts</a></li>
+            <li><a href="aboutsus.html">About Us</a></li>
+            <li style="flex: 1;"></li> <!-- Add an empty list item for spacing -->
+            <li><img src="gosling.webp" alt="User Profile Picture" class="profile-picture"></li>
+            <li><a href="profile.html">Ryan Gosling</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="post garbage">
+            <h2>Turning Trash into Treasure</h2>
+            <p>Today, I transformed my old plastic bottles into a beautiful flower pot. It's amazing what you can do
+                with a little creativity and recycling!</p>
+            <div class="author">
+                <img src="tomholland.webp" alt="Author 1">
+                <p>Posted by Tom Holland</p>
+            </div>
+        </div>
+
+        <div class="post compost">
+            <h2>Composting Success</h2>
+            <p>My compost pile is thriving! I've reduced my kitchen waste and created nutrient-rich soil for my garden.
+                #CompostGoals</p>
+            <div class="author">
+                <img src="margotrobbie.webp" alt="Author 2">
+                <p>Posted by Margot Robbie</p>
+            </div>
+        </div>
+
+        <div class="post recycling">
+            <h2>Repurposing Old Electronics</h2>
+            <p>I just turned my old smartphone into a smart doorbell system! Don't toss out your old gadgets; they can
+                have a second life with a little creativity.</p>
+            <div class="author">
+                <img src="gosling.webp" alt="Author 3">
+                <p>Posted by Ryan Gosling</p>
+            </div>
+        </div>
+
+        <div class="post compost">
+            <h2>Upcycled Fashion</h2>
+            <p>Check out my new dress made from repurposed materials. Sustainable fashion is not only eco-friendly but
+                also stylish! #EcoFashion</p>
+            <div class = "author">
+                <img src="jakegyllenhaal.webp" alt="Author 4">
+                <p>Posted by Jake Gyllenhaal</p>
+            </div>
+        </div>
+
+        <div class="post recycling">
+            <h2>Zero-Waste Kitchen Tips</h2>
+            <p>I've drastically reduced my kitchen waste by composting, using reusable containers, and shopping in bulk.
+                Here are my top tips for a zero-waste kitchen!</p>
+            <div class="author">
+                <img src="drake.webp" alt="Author 5">
+                <p>Posted by Drake</p>
+            </div>
+        </div>
+
+        <div class="post garbage">
+            <h2>Community Cleanup Event</h2>
+            <p>Join us this weekend for a community cleanup event to make our neighborhood cleaner and greener. Let's
+                work together for a cleaner environment!</p>
+            <div class="author">
+                <img src="icespice.webp" alt ="author 6">
+                <p>Posted by Ice Spice</p>
+            </div>
+        </div>
+
+        <div class="post recycling">
+            <h2>Recycling Craft Workshop</h2>
+            <p>Hosting a recycling craft workshop this Saturday! Learn to turn everyday recyclables into art and
+                functional items. Don't miss out!</p>
+            <div class="author">
+                <img src="davidguetta.webp" alt="Author 7">
+                <p>Posted by David Guetta</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 WasteWizard. All rights reserved.
+    </footer>
+</body>
+
+</html>
